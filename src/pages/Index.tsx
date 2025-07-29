@@ -37,8 +37,11 @@ const Index = () => {
                 { id: 'home', label: 'Home' },
                 { id: 'overview', label: 'Overview' },
                 { id: 'concept', label: 'Concept' },
-                { id: 'format', label: 'Roadmap' },
-                { id: 'timeline', label: "Schedule" }
+                { id: 'format', label: 'Format' },
+                { id: 'timeline', label: 'Timeline' },
+                { id: 'prizes', label: 'Prizes' },
+                { id: 'points', label: 'Points' },
+                { id: 'maps', label: 'Maps' }
               ].map((item) => (
                 <Button
                   key={item.id}
@@ -64,6 +67,9 @@ const Index = () => {
           <div className="absolute inset-0 bg-background/80"></div>
         </div>
         <div className="container mx-auto px-4 text-center relative z-10">
+          <Badge className="mb-6 text-lg px-6 py-2 bg-primary text-primary-foreground">
+            Official Collaboration Tournament
+          </Badge>
           <h1 className="text-4xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
             Great Shinobi War
           </h1>
