@@ -38,7 +38,7 @@ const Index = () => {
                 { id: 'overview', label: 'Overview' },
                 { id: 'concept', label: 'Concept' },
                 { id: 'format', label: 'Roadmap' },
-                { id: 'timeline', label: "Date's" }
+                { id: 'timeline', label: "Schedule" }
               ].map((item) => (
                 <Button
                   key={item.id}
