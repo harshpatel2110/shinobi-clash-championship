@@ -303,6 +303,106 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Clash Squad Format */}
+      <section className="py-20 bg-card">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-center mb-16">Clash Squad Format</h2>
+          <div className="max-w-4xl mx-auto space-y-6">
+            <Card className="bg-accent/20 border-l-4 border-l-accent">
+              <CardContent className="p-6">
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="text-3xl">💀</div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-2">Shinobi Reckoning - Clash Squad Tournament</h3>
+                    <p className="text-muted-foreground">Elite 8-team showdown in intense Best-of series matches</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <div className="grid md:grid-cols-3 gap-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-accent">
+                    <Trophy className="h-5 w-5" />
+                    Quarterfinals
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-2">8 Teams → 4 Teams</p>
+                  <Badge variant="outline">Best of 1 (BO1)</Badge>
+                  <p className="text-sm mt-2 text-muted-foreground">Single elimination matches to determine the top 4 teams advancing to semifinals</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-secondary">
+                    <Target className="h-5 w-5" />
+                    Semifinals
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-2">4 Teams → 2 Teams</p>
+                  <Badge variant="secondary">Best of 3 (BO3)</Badge>
+                  <p className="text-sm mt-2 text-muted-foreground">Extended series to determine the final two teams competing for the ultimate title</p>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-primary">
+                    <Crown className="h-5 w-5" />
+                    Grand Finals
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground mb-2">2 Teams → 1 Champion</p>
+                  <Badge className="bg-gradient-to-r from-primary to-accent">Best of 5 (BO5)</Badge>
+                  <p className="text-sm mt-2 text-muted-foreground">Epic showdown to crown the ultimate Clash Squad champion</p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <Card className="bg-gradient-to-r from-primary/10 to-accent/10">
+              <CardContent className="p-6">
+                <h4 className="text-lg font-bold mb-4 text-center">Special Clash Squad Features</h4>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-primary rounded-full"></div>
+                      <span className="text-sm">Intense close-quarters combat</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-secondary rounded-full"></div>
+                      <span className="text-sm">Strategic team compositions</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-accent rounded-full"></div>
+                      <span className="text-sm">Quick-paced elimination rounds</span>
+                    </div>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-primary rounded-full"></div>
+                      <span className="text-sm">Special Naruto-themed maps</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-secondary rounded-full"></div>
+                      <span className="text-sm">Enhanced spectator experience</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-2 h-2 bg-accent rounded-full"></div>
+                      <span className="text-sm">Exclusive champion rewards</span>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Tournament Timeline */}
       <section id="timeline" className="py-20 bg-card">
         <div className="container mx-auto px-4">
