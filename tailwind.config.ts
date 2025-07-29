@@ -61,7 +61,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'leaf-village': 'hsl(var(--leaf-village))',
+				'sand-village': 'hsl(var(--sand-village))',
+				'mist-village': 'hsl(var(--mist-village))',
+				'cloud-village': 'hsl(var(--cloud-village))',
+				'shinobi-gold': 'hsl(var(--shinobi-gold))',
+				'ninja-shadow': 'hsl(var(--ninja-shadow))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
